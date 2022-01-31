@@ -1,0 +1,59 @@
+/* Media query, TODO change colors */
+body {
+    background-color: tan;
+}
+@media screen and (max-width: 992px) {
+body {
+    background-color: blue;
+}
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-bar {
+    font-family: Courier;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#header-img {
+    width: 4em;
+}
+#shop { 
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+#portfolio { 
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+#story { 
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+#form { 
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+}
+#video {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+}

@@ -1,0 +1,33 @@
+#title {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#img-caption {
+    width: 400px;
+}
+#img-caption {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+#tribute-info {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+li {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+ul {
+    /* Quick and dirty fix to center the list */
+    padding: 5px 0 0 0;
+}

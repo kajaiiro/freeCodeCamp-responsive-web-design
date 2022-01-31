@@ -1,0 +1,69 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html>
+        <body>
+                <header>
+                        <h1 id="title">Game Beta Testing</h1>
+                </header>
+                <p id="description">Fill details below to participate in Game Beta Testing</p>
+
+                <form id="survey-form">
+                <div class="input-headings">
+                        <!-- Inputs -->
+                        <label for="name" id="name-label">Name</label>
+                        <input id="name" type="text" name="name" placeholder="John Romero" class="form-inputs" required> </input>
+                                <br>
+                        <label for="email" id="email-label">Email</label>
+                        <input id="email" type="email" name="email" placeholder="john.romero@id.com" class="form-inputs" required> </input>
+                                <br>
+                        <label for="number" id="number-label">Age</label>
+                        <input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form-inputs" required> </input>
+                                <br>
+                        <!-- Dropdown -->
+                        <label for="dropdown" id="model">Select role</label>
+                        <select id="dropdown" class="form-inputs">
+                                <option value="QA_Tester">QA Tester</option>
+                                <option value="Tester">Tester</option>
+                                <option value="Proofreader">Proofreader</option>
+                                </select>
+                        <br>
+                        <br>
+                        <!-- Radio -->
+                        <label for="employment_status" id="employment_status"><b>Employment</b></label>
+                                <br>
+                        <input id="employment_status" type="radio" id="fulltime" name="employment" value="fulltime">
+                        <label for="employment_status">Fulltime</label>
+                                <br>
+                        <input id="employment_status" type="radio" id="parttime" name="employment" value="parttime">
+                        <label for="employment_status">Part-time</label>
+                                <br>
+                        <input id="employment_status" type="radio" id="unemployed" name="employment" value="unemployed">
+                        <label for="employment_status">Unemployed</label>
+                        <br>
+                        <br>
+                        <!-- Checkbox -->
+                        <label for="skills"><b>Skills</b></label>
+                                <br>
+                        <input id="checkbox" type="checkbox" name="skills" value="programming">
+                        <label for="checkbox">Programming</label>
+                                <br>
+                        <input id="checkbox" type="checkbox" name="skills" value="data_analysis">
+                        <label for="checkbox">Data analysis</label>
+                                <br>
+                        <input id="checkbox" type="checkbox" name="skills" value="office_tools">
+                        <label for="checkbox">Microsoft Office</label>
+                                <br>
+                        <input id="checkbox" type="checkbox" name="skills" value="graphics">
+                        <label for="checkbox">Graphic Design</label>
+                                <br>
+                        <!-- Textarea -->
+                        <label id="textarea">Other</label>
+                                <br>
+                        <textarea id="textarea" name="instructions" rows="2" cols="20"></textarea>
+                                <br>
+                        <input id="submit" type="submit" value="Send" class="submit-button"></input>
+                </div>
+                </form>
+        </body>
+</html>
